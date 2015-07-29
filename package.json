@@ -1,6 +1,6 @@
 {
 	"name": "string.prototype.padleft",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"author": "Jordan Harband",
 	"description": "ES7 spec-compliant String.prototype.padLeft shim.",
 	"license": "MIT",
