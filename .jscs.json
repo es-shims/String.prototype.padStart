@@ -15,6 +15,20 @@
 
 	"disallowSpaceAfterKeywords": [],
 
+	"disallowSpaceBeforeComma": true,
+	"disallowSpaceBeforeSemicolon": true,
+
+	"disallowNodeTypes": [
+		"DebuggerStatement",
+		"ForInStatement",
+		"LabeledStatement",
+		"SwitchCase",
+		"SwitchStatement",
+		"WithStatement"
+	],
+
+	"requireObjectKeysOnNewLine": true,
+
 	"requireSpacesInAnonymousFunctionExpression": { "beforeOpeningRoundBrace": true, "beforeOpeningCurlyBrace": true },
 	"requireSpacesInNamedFunctionExpression": { "beforeOpeningCurlyBrace": true },
 	"disallowSpacesInNamedFunctionExpression": { "beforeOpeningRoundBrace": true },
