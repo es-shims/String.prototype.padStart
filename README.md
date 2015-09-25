@@ -18,7 +18,7 @@ Most common usage:
 ```js
 var padLeft = require('string.prototype.padleft');
 
-assert(padLeft('foo', 5, 'bar') === 'arfoo');
+assert(padLeft('foo', 5, 'bar') === 'bafoo');
 
 padLeft.shim();
 

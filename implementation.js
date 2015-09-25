@@ -26,7 +26,7 @@ module.exports = function padLeft(maxLength) {
 		stringFiller += fillStr;
 	}
 	if (stringFiller.length > fillLen) {
-		stringFiller = slice(stringFiller, -fillLen);
+		stringFiller = slice(stringFiller, 0, fillLen);
 	}
 
 	return stringFiller + S;
