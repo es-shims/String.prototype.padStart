@@ -29,7 +29,7 @@ assert(padLeft('foo', 2)) === 'foo'.padLeft(2));
 Simply clone the repo, `npm install`, and run `npm test`
 
 [package-url]: https://npmjs.com/package/string.prototype.padleft
-[npm-version-svg]: http://vb.teelaun.ch/es-shims/String.prototype.padLeft.svg
+[npm-version-svg]: http://versionbadg.es/es-shims/String.prototype.padLeft.svg
 [travis-svg]: https://travis-ci.org/es-shims/String.prototype.padLeft.svg
 [travis-url]: https://travis-ci.org/es-shims/String.prototype.padLeft
 [deps-svg]: https://david-dm.org/es-shims/String.prototype.padLeft.svg
