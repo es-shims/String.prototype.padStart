@@ -12,22 +12,19 @@ module.exports = function padLeft(maxLength) {
 	if (arguments.length > 1) {
 		fillString = arguments[1];
 	}
-	var fillStr = typeof fillString === 'undefined' ? '' : ES.ToString(fillString);
-	if (fillStr === '') {
-		fillStr = ' ';
+	var F = typeof fillString === 'undefined' ? '' : ES.ToString(fillString);
+	if (F === '') {
+		F = ' ';
 	}
 	var intMaxLength = ES.ToLength(maxLength);
 	if (intMaxLength <= stringLength) {
 		return S;
 	}
 	var fillLen = intMaxLength - stringLength;
-	var stringFiller = '';
-	while (stringFiller.length < fillLen) {
-		stringFiller += fillStr;
-	}
-	if (stringFiller.length > fillLen) {
-		stringFiller = slice(stringFiller, 0, fillLen);
+	while (F.length < fillLen) {
+		F += F;
 	}
 
-	return stringFiller + S;
+	var truncatedStringFiller = F.length > fillLen ? slice(F, 0, fillLen) : F;
+	return truncatedStringFiller + S;
 };
