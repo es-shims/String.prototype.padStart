@@ -8,6 +8,7 @@
 		"max-nested-callbacks": [2, 3],
 		"max-statements": [2, 19],
 		"new-cap": [2, { "capIsNewExceptions": ["ToLength", "ToString", "RequireObjectCoercible"] }],
-		"no-invalid-this": [1]
+		"no-invalid-this": [1],
+		"no-magic-numbers": [0]
 	}
 }
