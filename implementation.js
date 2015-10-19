@@ -22,7 +22,9 @@ module.exports = function padLeft(maxLength) {
 	}
 	var fillLen = intMaxLength - stringLength;
 	while (F.length < fillLen) {
-		F += F;
+		var fLen = F.length;
+		var remainingCodeUnits = fillLen - fLen;
+		F += fLen > remainingCodeUnits ? slice(F, 0, remainingCodeUnits) : F;
 	}
 
 	var truncatedStringFiller = F.length > fillLen ? slice(F, 0, fillLen) : F;
