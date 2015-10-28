@@ -37,12 +37,12 @@
 		"function-bind": "^1.0.2"
 	},
 	"devDependencies": {
-		"tape": "^4.2.1",
+		"tape": "^4.2.2",
 		"covert": "^1.1.0",
-		"jscs": "^2.3.3",
+		"jscs": "^2.4.0",
 		"nsp": "^1.1.0",
-		"eslint": "^1.7.1",
-		"@ljharb/eslint-config": "^1.4.0",
+		"eslint": "^1.7.3",
+		"@ljharb/eslint-config": "^1.4.1",
 		"@es-shims/api": "^1.0.0"
 	},
 	"testling": {
