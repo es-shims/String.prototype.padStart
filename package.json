@@ -15,7 +15,7 @@
 		"lint": "npm run jscs && npm run eslint",
 		"eslint": "eslint test/*.js *.js",
 		"jscs": "jscs test/*.js *.js",
-		"security": "nsp package"
+		"security": "nsp check"
 	},
 	"repository": {
 		"type": "git",
@@ -40,10 +40,10 @@
 	"devDependencies": {
 		"tape": "^4.2.2",
 		"covert": "^1.1.0",
-		"jscs": "^2.4.0",
-		"nsp": "^1.1.0",
-		"eslint": "^1.7.3",
-		"@ljharb/eslint-config": "^1.4.1",
+		"jscs": "^2.5.1",
+		"nsp": "^2.0.2",
+		"eslint": "^1.9.0",
+		"@ljharb/eslint-config": "^1.6.0",
 		"@es-shims/api": "^1.0.0"
 	},
 	"testling": {
