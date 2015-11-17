@@ -3,5 +3,5 @@
 var implementation = require('./implementation');
 
 module.exports = function getPolyfill() {
-	return typeof String.prototype.padLeft === 'function' ? String.prototype.padLeft : implementation;
+	return typeof String.prototype.padStart === 'function' ? String.prototype.padStart : implementation;
 };

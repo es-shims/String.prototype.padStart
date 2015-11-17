@@ -3,8 +3,8 @@
 var getPolyfill = require('./polyfill');
 var define = require('define-properties');
 
-module.exports = function shimPadLeft() {
+module.exports = function shimPadStart() {
 	var polyfill = getPolyfill();
-	define(String.prototype, { padLeft: polyfill }, { padLeft: function () { return String.prototype.padLeft !== polyfill; } });
+	define(String.prototype, { padStart: polyfill }, { padStart: function () { return String.prototype.padStart !== polyfill; } });
 	return polyfill;
 };

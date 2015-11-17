@@ -4,7 +4,7 @@ var bind = require('function-bind');
 var ES = require('es-abstract/es7');
 var slice = bind.call(Function.call, String.prototype.slice);
 
-module.exports = function padLeft(maxLength) {
+module.exports = function padStart(maxLength) {
 	var O = ES.RequireObjectCoercible(this);
 	var S = ES.ToString(O);
 	var stringLength = ES.ToLength(S.length);

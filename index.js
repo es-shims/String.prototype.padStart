@@ -10,7 +10,7 @@ var shim = require('./shim');
 
 var bound = bind.call(Function.apply, implementation);
 
-var boundPadLeft = function padLeft(str, maxLength) {
+var boundPadStart = function padStart(str, maxLength) {
 	ES.RequireObjectCoercible(str);
 	var args = [maxLength];
 	if (arguments.length > 2) {
@@ -19,10 +19,10 @@ var boundPadLeft = function padLeft(str, maxLength) {
 	return bound(str, args);
 };
 
-define(boundPadLeft, {
+define(boundPadStart, {
 	getPolyfill: getPolyfill,
 	implementation: implementation,
 	shim: shim
 });
 
-module.exports = boundPadLeft;
+module.exports = boundPadStart;
