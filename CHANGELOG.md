@@ -1,3 +1,7 @@
+3.0.0 / 2015-11-17
+=================
+  * Renamed to `padStart`/`padEnd` per November 2015 TC39 meeting.
+
 2.0.0 / 2015-09-25
 =================
   * [Breaking] Take the *first* part of the `fillStr` when truncating (#1)
