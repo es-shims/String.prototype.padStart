@@ -8,7 +8,7 @@ var implementation = require('./implementation');
 var getPolyfill = require('./polyfill');
 var shim = require('./shim');
 
-var bound = bind.call(Function.apply, implementation);
+var bound = bind.call(Function.apply, getPolyfill());
 
 var boundPadStart = function padStart(str, maxLength) {
 	ES.RequireObjectCoercible(str);
