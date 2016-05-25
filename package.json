@@ -2,7 +2,7 @@
 	"name": "string.prototype.padstart",
 	"version": "3.0.0",
 	"author": "Jordan Harband",
-	"description": "ES7 spec-compliant String.prototype.padStart shim.",
+	"description": "ES2017 spec-compliant String.prototype.padStart shim.",
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
@@ -27,7 +27,8 @@
 		"String.prototype.padLeft",
 		"String.prototype.padStart",
 		"string",
-		"ES7",
+		"ES8",
+		"ES2017",
 		"shim",
 		"trim",
 		"padLeft",
