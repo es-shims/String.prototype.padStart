@@ -22,7 +22,7 @@ assert(padStart('foo', 5, 'bar') === 'bafoo');
 
 padStart.shim();
 
-assert(padStart('foo', 2)) === 'foo'.padStart(2));
+assert(padStart('foo', 2) === 'foo'.padStart(2));
 ```
 
 ## Tests
