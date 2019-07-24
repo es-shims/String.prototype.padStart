@@ -48,6 +48,7 @@
 		"@ljharb/eslint-config": "^12.1.0",
 		"covert": "^1.1.0",
 		"eslint": "^4.2.0",
+		"functions-have-names": "^1.1.0",
 		"jscs": "^3.0.7",
 		"nsp": "^2.6.3",
 		"tape": "^4.7.0"
