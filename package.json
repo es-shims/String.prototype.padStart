@@ -8,14 +8,13 @@
 	"scripts": {
 		"pretest": "npm run --silent lint",
 		"test": "npm run --silent tests-only",
-		"posttest": "npm run --silent security",
+		"posttest": "npx aud",
 		"tests-only": "es-shim-api --bound && npm run --silent test:shimmed && npm run --silent test:module",
 		"test:shimmed": "node test/shimmed.js",
 		"test:module": "node test/index.js",
 		"coverage": "covert test/*.js",
 		"coverage-quiet": "covert test/*.js --quiet",
-		"lint": "eslint .",
-		"security": "nsp check"
+		"lint": "eslint ."
 	},
 	"repository": {
 		"type": "git",
@@ -47,7 +46,6 @@
 		"covert": "^1.1.1",
 		"eslint": "^5.16.0",
 		"functions-have-names": "^1.1.0",
-		"nsp": "^2.6.3",
 		"tape": "^4.11.0"
 	},
 	"testling": {
