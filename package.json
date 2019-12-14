@@ -1,7 +1,10 @@
 {
 	"name": "string.prototype.padstart",
 	"version": "3.0.0",
-	"author": "Jordan Harband",
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"funding": {
+		"url": "https://github.com/sponsors/ljharb"
+	},
 	"description": "ES2017 spec-compliant String.prototype.padStart shim.",
 	"license": "MIT",
 	"main": "index.js",
