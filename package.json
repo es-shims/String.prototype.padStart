@@ -40,14 +40,14 @@
 	],
 	"dependencies": {
 		"define-properties": "^1.1.3",
-		"es-abstract": "^1.13.0",
-		"function-bind": "^1.1.1"
+		"es-abstract": "^1.17.0-next.1"
 	},
 	"devDependencies": {
 		"@es-shims/api": "^2.1.2",
 		"@ljharb/eslint-config": "^15.0.2",
 		"covert": "^1.1.1",
 		"eslint": "^6.7.2",
+		"function-bind": "^1.1.1",
 		"functions-have-names": "^1.2.0",
 		"tape": "^4.11.0"
 	},
