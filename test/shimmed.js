@@ -5,7 +5,7 @@ padStart.shim();
 
 var test = require('tape');
 var defineProperties = require('define-properties');
-var bind = require('function-bind');
+var callBind = require('es-abstract/helpers/callBind');
 var isEnumerable = Object.prototype.propertyIsEnumerable;
 var functionsHaveNames = require('functions-have-names')();
 
@@ -31,7 +31,7 @@ test('shimmed', function (t) {
 		st.end();
 	});
 
-	runTests(bind.call(Function.call, String.prototype.padStart), t);
+	runTests(callBind(String.prototype.padStart), t);
 
 	t.end();
 });
