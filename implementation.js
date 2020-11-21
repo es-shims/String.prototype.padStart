@@ -1,10 +1,10 @@
 'use strict';
 
-var ToLength = require('es-abstract/2019/ToLength');
-var ToString = require('es-abstract/2019/ToString');
-var RequireObjectCoercible = require('es-abstract/2019/RequireObjectCoercible');
+var ToLength = require('es-abstract/2020/ToLength');
+var ToString = require('es-abstract/2020/ToString');
+var RequireObjectCoercible = require('es-abstract/2020/RequireObjectCoercible');
 
-var callBound = require('es-abstract/helpers/callBound');
+var callBound = require('call-bind/callBound');
 var $slice = callBound('String.prototype.slice');
 
 module.exports = function padStart(maxLength) {
