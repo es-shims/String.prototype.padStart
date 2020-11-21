@@ -12,9 +12,7 @@
 		"pretest": "npm run lint",
 		"test": "npm run tests-only",
 		"posttest": "aud --production",
-		"tests-only": "tape 'test/**/*.js'",
-		"coverage": "covert test/*.js",
-		"coverage-quiet": "covert test/*.js --quiet",
+		"tests-only": "nyc tape 'test/**/*.js'",
 		"lint": "eslint .",
 		"postlint": "es-shim-api --bound"
 	},
@@ -45,10 +43,10 @@
 		"@es-shims/api": "^2.1.2",
 		"@ljharb/eslint-config": "^17.2.0",
 		"aud": "^1.1.2",
-		"covert": "^1.1.1",
 		"eslint": "^7.9.0",
 		"functions-have-names": "^1.2.1",
 		"has-strict-mode": "^1.0.0",
+		"nyc": "^10.3.2",
 		"tape": "^5.0.1"
 	},
 	"testling": {
