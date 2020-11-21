@@ -1,3 +1,16 @@
+3.1.1 / 2020-11-21
+=================
+  * [Deps] update `es-abstract`; use `call-bind` where applicable
+  * [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `functions-have-names`, `tape`; add `aud`
+  * [actions] add "Allow Edits" workflow
+  * [actions] switch Automatic Rebase workflow to `pull_request_target` event
+  * [meta] gitignore nyc output
+  * [meta] add `safe-publish-latest`
+  * [Tests] migrate tests to Github Actions
+  * [Tests] run `nyc` on all tests
+  * [Tests] add `implementation` test; run `es-shim-api` in postlint; use `tape` runner
+  * [Tests] update `function-bind`
+
 3.1.0 / 2019-12-14
 =================
   * [New] add `auto` entry point
