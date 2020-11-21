@@ -9,6 +9,7 @@
 	"license": "MIT",
 	"main": "index.js",
 	"scripts": {
+		"prepublish": "safe-publish-latest",
 		"pretest": "npm run lint",
 		"test": "npm run tests-only",
 		"posttest": "aud --production",
@@ -48,6 +49,7 @@
 		"functions-have-names": "^1.2.1",
 		"has-strict-mode": "^1.0.0",
 		"nyc": "^10.3.2",
+		"safe-publish-latest": "^1.1.4",
 		"tape": "^5.0.1"
 	},
 	"testling": {
