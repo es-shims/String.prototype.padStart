@@ -1,7 +1,6 @@
 'use strict';
 
-var padStart = require('../');
-padStart.shim();
+require('../auto');
 
 var test = require('tape');
 var defineProperties = require('define-properties');
@@ -26,8 +25,8 @@ test('shimmed', function (t) {
 	var supportsStrictMode = (function () { return typeof this === 'undefined'; }());
 
 	t.test('bad string/this value', { skip: !supportsStrictMode }, function (st) {
-		st['throws'](function () { return padStart(undefined, 'a'); }, TypeError, 'undefined is not an object');
-		st['throws'](function () { return padStart(null, 'a'); }, TypeError, 'null is not an object');
+		st['throws'](function () { return String.prototype.padStart.call(undefined, 'a'); }, TypeError, 'undefined is not an object');
+		st['throws'](function () { return String.prototype.padStart.call(null, 'a'); }, TypeError, 'null is not an object');
 		st.end();
 	});
 
