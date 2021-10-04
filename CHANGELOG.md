@@ -1,3 +1,13 @@
+3.1.3 / 2021-10-04
+=================
+  * [Robustness] avoid a runtime call to `.push`
+  * [Deps] update `es-abstract`
+  * [readme] add github actions/codecov badges
+  * [meta] use `prepublishOnly` script for npm 7+
+  * [actions] update workflows
+  * [actions] use `node/install` instead of `node/run`; use `codecov` action
+  * [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `aud`, `tape`
+
 3.1.2 / 2021-02-20
 =================
   * [meta] do not publish github action workflow files
