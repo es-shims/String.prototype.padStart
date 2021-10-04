@@ -12,10 +12,7 @@ var bound = callBind.apply(getPolyfill());
 
 var boundPadStart = function padStart(str, maxLength) {
 	RequireObjectCoercible(str);
-	var args = [maxLength];
-	if (arguments.length > 2) {
-		args.push(arguments[2]);
-	}
+	var args = arguments.length > 2 ? [maxLength, arguments[2]] : [maxLength];
 	return bound(str, args);
 };
 
