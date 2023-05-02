@@ -1,13 +1,12 @@
 'use strict';
 
-var padLeft = require('../');
-padLeft.shim();
+var padLeft = require('../auto');
 
 var test = require('tape');
 var defineProperties = require('define-properties');
 var callBind = require('call-bind');
 var isEnumerable = Object.prototype.propertyIsEnumerable;
-var functionsHaveNames = function f() {}.name === 'f';
+var functionsHaveNames = require('functions-have-names')();
 
 var runTests = require('./tests');
 
