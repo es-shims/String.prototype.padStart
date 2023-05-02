@@ -1,17 +1,17 @@
 'use strict';
 
-var bind = require('function-bind');
+var callBind = require('call-bind');
 var define = require('define-properties');
-var ES = require('es-abstract/es7');
+var RequireObjectCoercible = require('es-abstract/2022/RequireObjectCoercible');
 
 var implementation = require('./implementation');
 var getPolyfill = require('./polyfill');
 var shim = require('./shim');
 
-var bound = bind.call(Function.apply, implementation);
+var bound = callBind.apply(implementation);
 
 var boundPadLeft = function padLeft(str, maxLength) {
-	ES.RequireObjectCoercible(str);
+	RequireObjectCoercible(str);
 	var args = [maxLength];
 	if (arguments.length > 2) {
 		args.push(arguments[2]);
