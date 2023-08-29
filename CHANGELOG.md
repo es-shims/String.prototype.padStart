@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v3.1.5](https://github.com/es-shims/String.prototype.padStart/compare/v3.1.4...v3.1.5) - 2023-08-29
+
+### Commits
+
+- [Deps] update `define-properties`, `es-abstract` [`42a83bc`](https://github.com/es-shims/String.prototype.padStart/commit/42a83bca97668a418e349bac39fd477e7a8d05f9)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `aud`, `tape` [`cdcb754`](https://github.com/es-shims/String.prototype.padStart/commit/cdcb75415dc5ef06a4b4e0c053514b6325e6b485)
+
 ## [v3.1.4](https://github.com/es-shims/String.prototype.padStart/compare/v3.1.3...v3.1.4) - 2022-11-07
 
 ### Commits
