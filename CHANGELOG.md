@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v3.1.6](https://github.com/es-shims/String.prototype.padStart/compare/v3.1.5...v3.1.6) - 2024-03-16
+
+### Commits
+
+- [Refactor] update `es-abstract`; use `es-object-atoms` [`a3025f1`](https://github.com/es-shims/String.prototype.padStart/commit/a3025f14f75c25d7e2047c61374c1a75c31a345a)
+- [Dev Deps] update `aud`, `npmignore`, `tape` [`421d652`](https://github.com/es-shims/String.prototype.padStart/commit/421d65225ab1889f74d88d7c4b2805cc90869b5a)
+- [Deps] update `call-bind`, `define-properties` [`b70498f`](https://github.com/es-shims/String.prototype.padStart/commit/b70498ff8bbebc20bc74b81bda90eb6a86e0c861)
+
 ## [v3.1.5](https://github.com/es-shims/String.prototype.padStart/compare/v3.1.4...v3.1.5) - 2023-08-29
 
 ### Commits
