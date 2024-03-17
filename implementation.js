@@ -1,8 +1,8 @@
 'use strict';
 
-var ToLength = require('es-abstract/2023/ToLength');
-var ToString = require('es-abstract/2023/ToString');
-var RequireObjectCoercible = require('es-abstract/2023/RequireObjectCoercible');
+var ToLength = require('es-abstract/2024/ToLength');
+var ToString = require('es-abstract/2024/ToString');
+var RequireObjectCoercible = require('es-object-atoms/RequireObjectCoercible');
 
 var callBound = require('call-bind/callBound');
 var $slice = callBound('String.prototype.slice');
