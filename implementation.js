@@ -4,7 +4,7 @@ var ToLength = require('es-abstract/2024/ToLength');
 var ToString = require('es-abstract/2024/ToString');
 var RequireObjectCoercible = require('es-object-atoms/RequireObjectCoercible');
 
-var callBound = require('call-bind/callBound');
+var callBound = require('call-bound');
 var $slice = callBound('String.prototype.slice');
 
 module.exports = function padStart(maxLength) {
