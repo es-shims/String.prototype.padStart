@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v3.1.7](https://github.com/es-shims/String.prototype.padStart/compare/v3.1.6...v3.1.7) - 2025-03-13
+
+### Commits
+
+- [actions] use reusable workflows [`ae59509`](https://github.com/es-shims/String.prototype.padStart/commit/ae59509d83c62385e25627e8b3bb98a88dd59c23)
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `auto-changelog`, `has-strict-mode`, `tape` [`42bb53b`](https://github.com/es-shims/String.prototype.padStart/commit/42bb53b4bd2152aadfa57969b16c0f2632698545)
+- [Deps] update `call-bind`, `es-abstract`, `es-object-atoms` [`76ef765`](https://github.com/es-shims/String.prototype.padStart/commit/76ef765665b39eb1bfc013f081489d0831529c8d)
+- [Refactor] use `call-bound` directly [`8d2e2ae`](https://github.com/es-shims/String.prototype.padStart/commit/8d2e2ae6587efe2dffa95d8632e5b5c408837f33)
+- [Tests] replace `aud` with `npm audit` [`e3270b6`](https://github.com/es-shims/String.prototype.padStart/commit/e3270b6ea48bb0c726a14f38fd1fa3f40b14a889)
+- [Deps] update `es-abstract` [`002c22f`](https://github.com/es-shims/String.prototype.padStart/commit/002c22fb1af96651b64c5a5d9f5be110b123d91f)
+- [Dev Deps] add missing peer dep [`f9efe37`](https://github.com/es-shims/String.prototype.padStart/commit/f9efe3716254bd2f06909fc43c4823cbed89f788)
+
 ## [v3.1.6](https://github.com/es-shims/String.prototype.padStart/compare/v3.1.5...v3.1.6) - 2024-03-16
 
 ### Commits
